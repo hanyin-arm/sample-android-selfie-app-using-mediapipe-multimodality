@@ -15,12 +15,15 @@ captures/
 *.apk
 output.json
 
-# IntelliJ
+# IntelliJ/Android Studio
 *.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+workspace.xml
+tasks.xml
+*.iws
 
 # Keystore files
 *.jks
@@ -31,3 +34,57 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+.Spotlight-V100
+.Trashes
+._*
+
+# Android Studio caches and logs
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/coverage/
+.idea/codeStyles/
+.idea/dictionaries/
+.idea/httpRequests/
+.idea/tasks/
+.idea/vcs.xml
+.idea/androidStudioFirstRun.xml
+.idea/name
+.idea/jsLibraryMappings.xml
+
+# Android build
+/build/
+*/build/
+
+# Mac temporary files
+*.DS_Store
+*.AppleDouble
+*.swp
+
+# Crashlytics and Fabric
+crashlytics.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+fabric-build.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# NDK
+.obj/
+*.ndk/

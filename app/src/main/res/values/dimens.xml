@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="condition_indicator_padding">12dp</dimen>
+    <dimen name="condition_indicator_margin">36dp</dimen>
+</resources>

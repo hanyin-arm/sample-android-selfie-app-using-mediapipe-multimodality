@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Holistic Selfie Demo</string>
+
+    <string name="permission_request_camera_message">Camera permission is required to recognize face and hands</string>
+    <string name="permission_request_camera_rationale">To grant Camera permission to this app, please go to system settings</string>
+
+    <string name="condition_indicator_text_face">Face</string>
+    <string name="condition_indicator_text_gesture">Gesture</string>
+</resources>
